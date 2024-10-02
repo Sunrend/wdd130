@@ -1,18 +1,41 @@
-nav {background-color: steelblue;
-padding: 10px;}
-nav a {
-    color: white;
-    display: block;
-    padding: 20px
+.callout {
+	max-width: 500px;
+	margin: 10px;
+	border: 5px solid rgba(0,0,0,.1);
+	padding: 15px;
+	background-color: rgb(245, 4, 4);
+	color: #efe8e8;
 }
-h1{ color: steelblue;
+
+.callout img {
+	float: right;
+	margin: 0 0 10px 15px;
+	border: 5px solid #000;
+	padding: 3px;
+	background-color: #12d7e9;
+	width: 100px;
+	height: auto;
+	
 }
-img{
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    box-shadow: 0 0 30px; gray:
+
+blockquote {
+	margin: 0;
 }
-p {
-    padding 10px;
+
+cite {
+	display: block;
+	border-top: 1px dotted #ac2020;
+	padding-top: 3px;
+	text-align: right;
+	font-size: smaller;
 }
+:root{
+    --heading-background-color: rgb(184, 52, 140);
+    --heading-text-color: #554e93;
+    --haeding-front: 'montserray' helvetica, sans-serif;
+    --padding: 1rem;
+   
+}
+
+
+
