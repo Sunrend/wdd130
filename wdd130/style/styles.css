@@ -1,9 +1,16 @@
+:root{
+    --heading-background-color: rgb(184, 52, 140);
+    --heading-text-color: #554e93;
+    --haeding-front: 'montserray' helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 25px solid rgba(216, 55, 23, 0.1);
+}
+
 .callout {
 	max-width: 500px;
 	margin: 10px;
-	border: 5px solid rgba(0,0,0,.1);
 	padding: 15px;
-	background-color: rgb(245, 4, 4);
+	background-color: rgb(228, 27, 27);
 	color: #efe8e8;
 }
 
@@ -28,13 +35,6 @@ cite {
 	padding-top: 3px;
 	text-align: right;
 	font-size: smaller;
-}
-:root{
-    --heading-background-color: rgb(184, 52, 140);
-    --heading-text-color: #554e93;
-    --haeding-front: 'montserray' helvetica, sans-serif;
-    --padding: 1rem;
-   
 }
 
 
