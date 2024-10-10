@@ -1,34 +1,49 @@
 
-nav { background-color: rgb(91, 35, 159);
-padding: 10px;
+:root{
+color: ;
 }
+.hero{
+  position: relative;
+
+}
+.hero img {
+  display: block;
+  width 100%;
+  height: auto;
+}
+
 body { 
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+ 
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-
+    width: 800px;
 }
 nav a{
-    color: rgb(170, 246, 5)
-    
+    color: rgb(5, 218, 246);
+    padding: 5px;
+    text-decoration: none;
 }
-h1{color: rgb(41, 119, 178);
-    font-weight: 100;
+h1{
+    position: absolute;
+    color: rgb(41, 119, 178);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
 }
-.stacked-container{
-    position: relative;
-height: 500px;
+article {
+  position: absolute;
+  top: 8px;
+  left auto;
 }
+header{
+display: grid;
 
-.stacked
-{ position: absolute;
-left: 0px;
- top: 0px;   
-}
-
-p{padding: 10px;
-    }
-
-
-* 2a405a f9dec9 99b2dd 685044-- my colors for the page.
+  grid-template-columns: 120px auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;}
+  .img {
+    float: right;
+  }
+  nav {
+    padding-top: 20%;
+  }
