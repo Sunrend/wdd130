@@ -17,13 +17,13 @@ body {
     width: 800px;
 }
 nav a{
-    color: rgb(5, 218, 246);
+    color: rgb(0, 0, 0);
     padding: 15px;
     text-decoration: none;
 }
 h1{
    padding: 50px;
-    color: rgb(41, 119, 178);
+    color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     background-color:  rgb(5, 218, 246);
