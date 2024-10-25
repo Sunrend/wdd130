@@ -1,27 +1,59 @@
 <!DOCTYPE html> 
 <html lang="en-US">
     <head>
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initail-scale">
         <title>wdd 130 | html form - user poll</title>
     </head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            background-color: rgb(251, 251, 251);
+        }
+
+    </style>
     <body>
-        <header>
-            <h1></h1>
-        </header>
-        <main>
-<form action="">
-    <fieldset>
-        <legend>contact information</legend>
-    </fieldset>
-    <fieldset>
-        <legend>questions</legend>
-    </fieldset>
-</form>
-</main>
-        <footer>
-            <p></p>
-        </footer>
+        <table>
+            <thead>
+                <tr>
+                <th scope="col">Department</th>
+                <th scope="col">person</th>
+                <th scope="col">most interest in</th>
+                <th scope="col">age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                 <th rowspan="4">Accounting</th>
+                 <th scope="row">Chris</td>
+                 <td>Html tables</td>
+                 <td>22</td>
+                </tr>
+                <th scope="row">sarah</td>
+                    <td>diva</td>
+                    <td>34</td>
+                   </tr>
+                   <th scope="row">Dennis</td>
+                    <td>code extavinare</td>
+                    <td>40</td>
+                   </tr>
+                   <th scope="row">Karen</td>
+                    <td>profestional yapper</td>
+                    <td>32</td>
+                   </tr>
+        
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="3">average age</th>
+                    <td>33</td>
+                </tr>
+            </tfoot>
+        </tbody>
+        </table>
+        
+     
+
     </body>
 </html>
 
